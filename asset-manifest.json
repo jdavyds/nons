@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/nons/static/css/main.3bed186b.css",
+    "main.js": "/nons/static/js/main.dbca2661.js",
+    "static/js/787.ac650fe1.chunk.js": "/nons/static/js/787.ac650fe1.chunk.js",
+    "static/media/prizesPics.png": "/nons/static/media/prizesPics.9c9892b5abb9c32aa438.png",
+    "static/media/aboutGirl.png": "/nons/static/media/aboutGirl.64b6a98cd2fb82d72847.png",
+    "static/media/contestant.png": "/nons/static/media/contestant.43963f9b32b6233d25ab.png",
+    "static/media/rulesGirl.png": "/nons/static/media/rulesGirl.73e98b51ca6fa34dd3e4.png",
+    "static/media/coach3.png": "/nons/static/media/coach3.fd4141224b3125ca67d6.png",
+    "static/media/sub.png": "/nons/static/media/sub.9940f35f815088bf91f7.png",
+    "static/media/coach1.png": "/nons/static/media/coach1.76eb8fc63986fc3a5cd2.png",
+    "static/media/cord3.png": "/nons/static/media/cord3.ec06e407e5074bf8be0d.png",
+    "static/media/coach2.png": "/nons/static/media/coach2.ca5df616c50883d81284.png",
+    "static/media/cord2.png": "/nons/static/media/cord2.bb9c5cded8c6739537ac.png",
+    "static/media/cord4.png": "/nons/static/media/cord4.fa15410efb964cfb17b7.png",
+    "static/media/cord1.png": "/nons/static/media/cord1.acf9249967c674cefad0.png",
+    "static/media/glo.png": "/nons/static/media/glo.90e94c8b9903cc97a124.png",
+    "static/media/kfc.png": "/nons/static/media/kfc.5aa52652445ba1ceb663.png",
+    "index.html": "/nons/index.html",
+    "main.3bed186b.css.map": "/nons/static/css/main.3bed186b.css.map",
+    "main.dbca2661.js.map": "/nons/static/js/main.dbca2661.js.map",
+    "787.ac650fe1.chunk.js.map": "/nons/static/js/787.ac650fe1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bed186b.css",
+    "static/js/main.dbca2661.js"
+  ]
+}
