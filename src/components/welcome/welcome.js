@@ -3,10 +3,14 @@ import contestant from './../img/contestant.png'
 import evenza from './../img/EVENZA.png'
 import mcharm from './../img/MCHARM.png'
 import ullweb from './../img/ULLWEB WHITE 1.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 function Welcome() {
     return(
         <div className="welcome">
+            <FontAwesomeIcon className='navigate left' icon={faChevronLeft}/>
+            <FontAwesomeIcon className='navigate right' icon={faChevronRight}/>
             <section className='intro'>
                 <h1>
                 MR. & MISS NOTABLE NIGERIA STUDENT SCHOLARSHIP PAGEANT 

@@ -10,7 +10,7 @@ import unilag from './../img/unilag.png'
 import benson from './../img/benson.png'
 import last from './../img/last.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight, faCrown } from '@fortawesome/free-solid-svg-icons'
+import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 function Schools() {
     return(

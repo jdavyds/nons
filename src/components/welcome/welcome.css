@@ -5,11 +5,33 @@
     overflow-x: hidden;
 }
 .intro {
+    position: relative;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.navigate {
+    background: rgb(96, 95, 95);
+    color: white;
+    position: absolute;
+    top: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 10px;
+    font-size: 23px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.navigate.left {
+    left: 50px;
+}
+.navigate.right {
+    right: 50px;
 }
 .intro h1 {
     margin-top: 100px;
