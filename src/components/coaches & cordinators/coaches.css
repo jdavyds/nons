@@ -1,0 +1,55 @@
+.coaches {
+    background: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.coaches h3 {
+    color: #B08126;
+    font-weight: 400;
+    font-size: 25px;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+.coaches span {
+    background: #D8AA35;
+    width: 20%;
+    height: 3px;
+}
+.coaches .facilitators {
+    width: 100%;
+    margin: 40px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.coaches nav {
+    margin-bottom: 30px;
+}
+.coaches .circle {
+    margin: 30px 10px;
+    color: #B08126;
+    opacity: 0.8;
+}
+.coaches .circle.active {
+    opacity: 1;
+}
+.coaches .coord {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(60, 60, 61);
+}
+.coaches .coord .circle {
+    margin-top: 60px;
+}
+.coaches .coordinators {
+    width: 100%;
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}

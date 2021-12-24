@@ -1,0 +1,50 @@
+.about {
+    background: rgb(55, 55, 55);
+    color: white;
+    display: flex;
+    overflow-x: hidden;
+}
+.abt-nav {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.abt-nav nav {
+    border: 20px solid grey;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.abt-nav nav img {
+    z-index: 333;
+    transform: translate(-45px, -55%);
+}
+.abt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abt h4 {
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #B08126;
+}
+.abt p {
+    padding: 20px 100px 20px 20px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+.abt button {
+    margin: 20px 0 70px 0;
+    background: #B08126;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+    display: flex;
+}

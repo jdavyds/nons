@@ -1,0 +1,45 @@
+.faq {
+    overflow: hidden;
+    background: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px;
+    overflow-x: hidden;
+}
+.faq h3 {
+    font-weight: 400;
+    font-size: 25px;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+.faq main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.faq main div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 22px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    padding-left: 120px;
+}
+.faq .down {
+    display: flex;
+    align-self: center;
+    margin:  0 15px;
+}
+.faq button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    background: inherit;
+    border: 1px solid #D8AA35;
+    color: white;
+}

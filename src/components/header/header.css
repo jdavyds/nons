@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    background: rgb(51, 51, 51);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+header img {
+    margin: 0 80px 0 100px;
+}
+.header-links {
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+}
+header button {
+    background: #B08126;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+}

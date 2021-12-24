@@ -1,0 +1,41 @@
+.subscribe {
+    display: flex;
+    background: rgb(29, 28, 28);
+    color: white;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+.subscribe section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 120px;
+}
+.subscribe p {
+    font-size: 21px;
+    line-height: 1.7;
+    margin: 40px 0;
+}
+.subscribe .sub {
+    font-size: 30px;
+}
+.subscribe div {
+    display: flex;
+}
+.subscribe input {
+    padding: 20px;
+    font-size: 21px;
+    color: gray;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.subscribe button {
+    background: #D8AA35;
+    padding: 20px;
+    font-size: 21px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+.subscribe img {
+    margin: auto;
+}

@@ -1,0 +1,84 @@
+.welcome {
+    background: rgb(29, 28, 28);
+    color: white;
+    display: flex;
+    overflow-x: hidden;
+}
+.intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro h1 {
+    margin-top: 100px;
+    margin-left: 120px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.intro span {
+    background: #B08126;
+    height: 3px;
+    width: 40%;
+    margin: 40px 0;
+}
+.intro p {
+    margin: 20px 120px;
+    font-size: 21px;
+    line-height: 1.4;
+}
+.register {
+    margin: 0 0 100px 120px;
+    background: #B08126;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 21px;
+    display: flex;
+    align-self: flex-start;
+}
+.register a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+.contes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.contes nav {
+    border: 20px solid grey;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.contes nav img {
+    z-index: 333;
+    transform: translate(-45px, -50%);
+}
+.welcome .sponsor {
+    display: flex;
+}
+.welcome .headline {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.welcome .headline img {
+    margin: 20px 0;
+}
+.welcome .powered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.welcome .powered div {
+    display: flex;
+}
+.welcome .powered div img {
+    margin: 20px 20px;
+}

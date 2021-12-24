@@ -1,0 +1,45 @@
+.reg {
+    background: rgb(19, 18, 18);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 60px 30px 60px;
+    overflow-x: hidden;
+}
+.reg div {
+    overflow: hidden;
+    /* background: rgb(48, 44, 44); */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding-bottom: 270px;
+}
+.reg h3 {
+    color: #B08126;
+    font-weight: 400;
+    font-size: 25px;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+.reg span {
+    background: #D8AA35;
+    width: 10%;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.reg p {
+    font-size: 35px;
+    margin: 20px;
+}
+.reg button {
+    padding: 10px 30px;
+    font-size: 22px;
+    background: #B08126;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,114 @@
+.prizes {
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px;
+    overflow-x: hidden;
+}
+.prizes h3 {
+    color: #B08126;
+    font-weight: 400;
+    font-size: 25px;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+.prizes span {
+    background: #D8AA35;
+    width: 20%;
+    height: 3px;
+}
+.prizes h4 {
+    margin: 30px 500px 0 auto;
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+}
+.prizes main {
+    display: flex;
+    padding: 30px 100px;
+}
+.first, .second, .third {
+    position: relative;
+    min-width: 235px;
+    width: 235px;
+    min-height: 150px;
+    height: fit-content;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first h6, .second h6, .third h6 {
+    font-size: 16px;
+}
+.first {
+    margin-left: 35%;
+    background: #FF7A00;
+}
+.second {
+    background: #30009C;
+    margin-top: 80px;
+}
+.third {
+    margin-top: 140px;
+    background: #CE1818;
+}
+.prizes .crown {
+    position: absolute;
+    top: -15px;
+    font-size: 30px;
+    background: #D8AA35;
+    border-radius: 50%;
+    padding: 8px;
+}
+.prizes section {
+    width: 100%;
+    padding: 0 100px 0 0;
+    display: flex;
+}
+.prizes nav {
+    border: 40px solid grey;
+    border-radius: 50%;
+    width: 420px;
+    height: 400px;
+    margin: 0 40px 0 120px;
+    object-fit: fill;
+}
+.prizes nav img {
+    z-index: 333;
+    transform: translate(-20px, -260px);
+}
+.fourth, .fifth {
+    position: relative;
+    min-width: 235px;
+    min-height: 150px;
+    width: 235px;
+    height: fit-content;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fourth h6, .fifth h6 {
+    font-size: 16px;
+}
+.fourth {
+    margin-left: auto;
+    background: #99209B;
+}
+.fifth {
+    background: #16850D;
+}

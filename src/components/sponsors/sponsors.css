@@ -1,0 +1,39 @@
+.sponsors {
+    background: rgb(29, 28, 28);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 60px 30px 60px;
+    overflow-x: hidden;
+}
+.sponsors h3 {
+    color: #B08126;
+    font-weight: 400;
+    font-size: 25px;
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+}
+.sponsors span {
+    background: #D8AA35;
+    width: 10%;
+    height: 3px;
+}
+.sponsor {
+    width: 100%;
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reg-btn button {
+    padding: 10px 5px;
+    margin: 20px;
+    font-size: 21px;
+    background: inherit;
+    color: white;
+    border: 3px solid #B08126;
+}
+.reg-btn button.active {
+    background: #B08126;
+}
