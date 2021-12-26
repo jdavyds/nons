@@ -33,6 +33,12 @@
     background: inherit;
     color: white;
     border: 3px solid #B08126;
+    cursor: pointer;
+}
+.reg-btn button:hover, .reg-btn button.active:hover {
+    color: rgb(29, 28, 28);
+    background: white;
+    border: 1px solid inherit;
 }
 .reg-btn button.active {
     background: #B08126;

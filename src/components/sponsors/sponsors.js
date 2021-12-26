@@ -7,7 +7,7 @@ import mtn from './../img/MTN.png'
 
 function Sponsors() {
     return(
-        <div className="sponsors">
+        <div className="sponsors" id='sponsors'>
             <h3>Sponsors</h3>
             <span></span>
             <div className='sponsor'>

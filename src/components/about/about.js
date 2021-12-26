@@ -2,7 +2,7 @@ import './about.css'
 import aboutGirl from './../img/aboutGirl.png'
 function About() {
     return(
-        <div className="about">
+        <div className="about" id='about'>
             <section className='abt-nav'>
             <nav>
                 <img src={aboutGirl} alt="" />

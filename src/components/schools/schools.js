@@ -14,7 +14,7 @@ import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 function Schools() {
     return(
-        <div className="schools">
+        <div className="schools" id='schools'>
              <h3>Participating Schools</h3>
             <span></span>
             <nav className="school">

@@ -32,7 +32,9 @@ function App() {
       <Subscribe />
       <Footer />
       <nav className='super-nav'>
+        <a href="#header">
       <ArrowUpward id='super'/>
+        </a>
       </nav>
     </div>
   );

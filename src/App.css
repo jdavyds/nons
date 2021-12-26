@@ -13,6 +13,14 @@
     z-index: 999;
     border-radius: 50%;
 }
+.super-nav:hover {
+    background: #D8AA35;
+    color: white;
+}
+.super-nav a {
+    color: inherit;
+    text-decoration: none;
+}
 #super {
     font-size: 30px;
 }

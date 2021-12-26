@@ -9,7 +9,6 @@
 }
 .reg div {
     overflow: hidden;
-    /* background: rgb(48, 44, 44); */
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -42,4 +41,9 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.reg button:hover {
+    background: white;
+    color: #B08126;
 }

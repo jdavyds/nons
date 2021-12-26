@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faCrown } from '@fortawesome/free-solid-svg-icons'
 function Faq() {
     return(
-        <div className="faq">
+        <div className="faq" id='faq'>
             <h3>Frequently Asked Questions</h3>
             <main>
                 <div className="questions">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCrown } from '@fortawesome/free-solid-svg-icons'
 function Rules() {
     return(
-        <div className='rules'>
+        <div className='rules' id='rules'>
             <h3>Rules for Contesting in the “Mr. & Miss Notable 
             Nigeria Student Scholarship Pageant”</h3>
             <span></span>

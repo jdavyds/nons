@@ -14,7 +14,7 @@ import solarium from './../img/solarium (1) 1.png'
 
 function ToGet() {
     return(
-        <div className="toget">
+        <div className="toget" id='toget'>
              <h3>What You Will Get</h3>
             <span></span>
             <h4>These are the things you get</h4>

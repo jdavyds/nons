@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCrown } from '@fortawesome/free-solid-svg-icons'
 function Prizes() {
     return(
-        <div className="prizes">
+        <div className="prizes" id='prizes'>
             <h3>Prizes</h3>
             <span></span>
                 <h4>GRAND PRIZE</h4>

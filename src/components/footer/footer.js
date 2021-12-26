@@ -10,16 +10,16 @@ function Footer() {
                 <p>The Mr. & Miss Notable Nigeria Student Scholarship Pageant, 2022 is an artistic celebration of beauty with brain that seeks to promote and intertwine Physical Beauty, Internal Beauty</p>
             </div>
             <div>
-                <a href="#">About</a>
-                <a href="#">Rules</a>
-                <a href="#">Prizes</a>
-                <a href="#">What You will Get</a>
+                <a href="#about">About</a>
+                <a href="#rules">Rules</a>
+                <a href="#prizes">Prizes</a>
+                <a href="#toget">What You will Get</a>
             </div>
             <div>
-                <a href="#">Facilitators</a>
-                <a href="#">Contestants</a>
-                <a href="#">FAQ</a>
-                <a href="#">Sponsors</a>
+                <a href="#coaches">Facilitators</a>
+                <a href="#contestants">Contestants</a>
+                <a href="#faq">FAQ</a>
+                <a href="#sponsors">Sponsors</a>
             </div>
             <div>
                 Follow Us

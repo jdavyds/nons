@@ -38,6 +38,7 @@
 }
 .contestant img {
     margin: 30px;
+    cursor: pointer;
 }
 .cont-span {
     width: 100vw;

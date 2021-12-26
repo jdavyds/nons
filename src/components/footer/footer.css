@@ -3,6 +3,9 @@ footer {
     color: white;
     overflow-x: hidden;
 }
+footer a:hover {
+    color: #D8AA35;
+}
 footer section {
     border-top: 1px solid white;
     display: flex;
@@ -31,11 +34,13 @@ footer section div nav {
 footer section .icon {
     margin: 0 10px;
 }
+footer section .icon:hover {
+    color: #D8AA35;
+}
 footer span {
     border-top: 1px solid white;
     display: flex;
     justify-content: space-between;
     padding: 30px 60px 30px 120px;
     font-size: 19px;
-
 }

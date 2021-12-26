@@ -44,6 +44,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.toget .items:hover {
+    box-shadow: 0 0 10px 5px whitesmoke;
 }
 .toget .items img {
     margin: 10px 0;

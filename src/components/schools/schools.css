@@ -26,13 +26,21 @@
     display: flex;
     justify-content: space-evenly;
 }
+.schools img {
+    cursor: pointer;
+}
 .schools button {
+    cursor: pointer;
     padding: 10px;
     background: white;
     color: gray;
     border-radius: 2px;
     border: none;
     margin: 5px ;
+}
+.schools button:hover {
+    color: white;
+    background: grey;
 }
 .schools button.active {
     background: grey;

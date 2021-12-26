@@ -23,10 +23,16 @@ header img {
     text-decoration: none;
     color: white;
 }
+.header-links a:hover {
+    color: #B08126;
+}
 header button {
     background: #B08126;
     border: none;
     padding: 10px;
     border-radius: 5px;
     font-size: 21px;
+}
+header button:hover {
+    background: white;
 }

@@ -28,6 +28,7 @@
     color: gray;
     border: none;
     border-radius: 10px 0 0 10px;
+    outline: none;
 }
 .subscribe button {
     background: #D8AA35;
@@ -35,6 +36,9 @@
     font-size: 21px;
     border-radius: 0 10px 10px 0;
     border: none;
+}
+.subscribe button:hover {
+    color: white;
 }
 .subscribe img {
     margin: auto;

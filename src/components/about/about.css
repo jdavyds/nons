@@ -49,3 +49,7 @@
     font-size: 21px;
     display: flex;
 }
+.abt button:hover {
+    background: white;
+    color: #B08126;
+}

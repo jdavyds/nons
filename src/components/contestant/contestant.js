@@ -5,7 +5,7 @@ import span2 from './../img/span2.png'
 
 function Contestant() {
     return(
-        <div className="contestants">
+        <div className="contestants" id='contestants'>
             <h3>Contestants</h3>
             <span></span>
             <p>Be one of the 30 finalist who will stand a chance to win the Grand Prize and own the bragging right as the Mr/Miss Notable Nigeria</p>

@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 function Coaches() {
     return(
-        <div className="coaches">
+        <div className="coaches" id='coaches'>
             <h3>Coaches & Facilitators</h3>
             <span></span>
             <section className="facilitators">
