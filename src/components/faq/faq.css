@@ -20,15 +20,32 @@
     display: flex;
     flex-wrap: wrap;
 }
-.faq main div {
+.faq main nav {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding-left: 120px;
+}
+.faq main .questions, .faq main .answer {
+    width: 100%;
+    line-height: 1.7;
     display: flex;
     align-items: center;
     justify-content: left;
     font-size: 22px;
-    margin: 20px 0;
     text-transform: capitalize;
-    padding-left: 120px;
+    cursor: pointer;
+}
+.faq main .answer {
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: none;
+    background: gray;
+    color: whitesmoke;
+}
+.faq main .answer.active {
+    display: block;
 }
 .faq .down {
     display: flex;
@@ -42,4 +59,17 @@
     background: inherit;
     border: 1px solid #D8AA35;
     color: white;
+}
+.faq button:hover {
+    background: whitesmoke;
+    color: black;
+}
+@media only screen and (max-width: 1000px) {
+    .faq main nav {
+        width: 90%;
+        padding-left: 0px;
+    }
+    .faq {
+        padding: 20px;
+    }
 }

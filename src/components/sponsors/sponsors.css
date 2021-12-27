@@ -24,6 +24,7 @@
     width: 100%;
     margin: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .reg-btn button {
@@ -42,4 +43,17 @@
 }
 .reg-btn button.active {
     background: #B08126;
+}
+@media only screen and (max-width: 1000px) {
+    .sponsor img {
+        width: 30%;
+        margin: 50px;
+    }
+    .sponsors span {
+        width: 30%;
+    }
+    .reg-btn {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -52,3 +52,16 @@
 .toget .items img {
     margin: 10px 0;
 }
+@media only screen and (max-width: 1000px) {
+    .toget main {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .toget h3, .toget h4 {
+        width: 100%;
+        text-align: center;
+    }
+    .toget .items {
+        padding: 10px;
+    }
+}

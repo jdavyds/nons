@@ -116,3 +116,27 @@
 .fifth {
     background: #16850D;
 }
+@media only screen and (max-width: 1000px) {
+    .prizes h4 {
+        margin: 20px 0;
+        display: flex;
+        align-self: center;
+    }
+    .prizes nav {
+        display: none;
+    }
+    .prizes main, .prizes section {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .first {
+        margin-left: unset;
+    }
+    .first, .second, .third {
+        margin-top: 30px;
+    }
+    .fourth {
+        margin-left: unset;
+    }
+}

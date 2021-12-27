@@ -31,13 +31,13 @@ function Prizes() {
                 </nav>
                 <div className='fourth'>
                 <FontAwesomeIcon className='crown' icon={faCrown} />
-                <h6>Third Prize</h6>
-                <p>N200,000/yr Scholarship (for years left in school) plus school pet project , travels and gift </p>
+                <h6>Fourth Prize</h6>
+                <p>N100,000/yr Scholarship (for One Year) plus school pet project , travels and gift </p>
                 </div>
                 <div className='fifth'>
                 <FontAwesomeIcon className='crown' icon={faCrown} />
-                <h6>Third Prize</h6>
-                <p>N200,000/yr Scholarship (for years left in school) plus school pet project , travels and gift </p>
+                <h6>Fifth Prize</h6>
+                <p>N100,000/yr Scholarship (for One Year) plus school pet project , travels and gift </p>
                 </div>
             </section>
         </div>

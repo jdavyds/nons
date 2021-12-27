@@ -1,5 +1,5 @@
 .contestants {
-    overflow: hidden;
+    width: 100%;
     background: rgb(35, 35, 35);
     color: white;
     display: flex;
@@ -7,7 +7,6 @@
     align-items: center;
     padding: 30px 60px;
     overflow-x: hidden;
-
 }
 .contestants h3 {
     color: #B08126;
@@ -32,17 +31,18 @@
     font-size: 21px;
 }
 .contestant {
-    padding: 0 120px;
+    width: 100%;
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .contestant img {
-    margin: 30px;
+    margin: 20px auto;
     cursor: pointer;
 }
 .cont-span {
     width: 100vw;
-    margin: 10px;
+    margin: 40px 10px 10px 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -62,4 +62,25 @@
 }
 .cont-span img {
     margin-right: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .contestants span {
+        width: 30%;
+    }
+    .contestants {
+        padding: inherit unset;
+    }
+    .contestants h3 {
+        width: 100%;
+    }
+    .contestants p {
+        width: 90%;
+    }
+    .contestant {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont-span {
+        display: none;
+    }
 }

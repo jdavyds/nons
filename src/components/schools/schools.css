@@ -46,3 +46,16 @@
     background: grey;
     color: white;
 }
+@media only screen and (max-width: 1000px) {
+    .schools .school {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .schools .school img {
+        margin: 20px;
+    }
+    .schools {
+        padding: 20px;
+    }
+}

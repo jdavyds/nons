@@ -7,6 +7,7 @@ footer a:hover {
     color: #D8AA35;
 }
 footer section {
+    width: 100%;
     border-top: 1px solid white;
     display: flex;
     padding: 60px 60px 30px 60px;
@@ -15,6 +16,7 @@ footer section div {
     width: 25%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
     padding-left: 60px;
@@ -40,7 +42,40 @@ footer section .icon:hover {
 footer span {
     border-top: 1px solid white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 60px 30px 120px;
     font-size: 19px;
+}
+@media only screen and (max-width: 1000px) {
+    footer section {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    footer section div:first-of-type {
+        width: 100%;
+        margin: 20px 0;
+        padding-left: unset;
+    }
+    footer section div:nth-of-type(2),
+    footer section div:nth-of-type(3) {
+        width: 100%;
+        margin: 20px 0;
+        padding-left: unset;
+        flex-direction: row;
+    }
+    footer section div:nth-of-type(2) a,
+    footer section div:nth-of-type(3) a{
+        margin: 20px;
+    }
+    footer section div:last-of-type {
+        width: 100%;
+        padding-left: unset;
+    }
+    footer span {
+        padding: unset;
+    }
+    footer span nav {
+        padding: 10px;
+    }
 }

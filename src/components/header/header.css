@@ -1,6 +1,12 @@
 header {
-    min-width: 100vw;
-    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
     background: rgb(51, 51, 51);
     padding: 20px;
     display: flex;
@@ -10,10 +16,11 @@ header {
 }
 header img {
     margin: 0 80px 0 100px;
+    height: 2em;
 }
 .header-links {
     width: 100%;
-    font-size: 21px;
+    font-size: 18px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -35,4 +42,50 @@ header button {
 }
 header button:hover {
     background: white;
+}
+.hambuger {
+    display: none;
+}
+.hambuger-nav {
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+    .header-links {
+        display: None;
+    }
+    header {
+        flex-direction: column;
+    }
+    header div {
+        justify-content: space-between;
+    }
+    .hambuger {
+        display: flex;
+        position: relative;
+    }
+    .hambuger-icon {
+        margin-right: 50px;
+        font-size: 30px;
+        color: #B08126;
+        transition: all 0.2s ease-in-out;
+    }
+    .hambuger-nav.active {
+        top: 70px;
+        width: 100%;
+        background: #B08126;
+        display: flex;
+        flex-direction: column;
+    }
+    .hambuger-nav.active a {
+        text-decoration: none;
+        font-size: 20px;
+        width: 100%;
+        color: white;
+        padding: 10px 20px;
+    }
+    .hambuger-nav.active a:hover {
+        color: black;
+        padding-left: 30px;
+    }
 }

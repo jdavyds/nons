@@ -36,7 +36,7 @@
 }
 .abt p {
     padding: 20px 100px 20px 20px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.8;
 }
 .abt button {
@@ -46,10 +46,36 @@
     border: none;
     padding: 10px;
     border-radius: 5px;
-    font-size: 21px;
+    font-size: 20px;
     display: flex;
 }
 .abt button:hover {
     background: white;
     color: #B08126;
+}
+@media only screen and (max-width: 1000px) {
+    .about {
+        z-index: -2;
+        position: relative;
+    }
+    .about::before {
+        content: url(./../img/aboutGirl.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+    .abt-nav {
+        display: none;
+    }
+    .abt {
+        width: 100%;
+        padding: 30px;
+    }
+    .abt p {
+        padding-right: 40px;
+    }
 }
