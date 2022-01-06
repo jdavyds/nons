@@ -10,36 +10,36 @@ function Contestant() {
             <span></span>
             <p>Be one of the 30 finalist who will stand a chance to win the Grand Prize and own the bragging right as the Mr/Miss Notable Nigeria</p>
             <div className="contestant">
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
-                <img src={holder} alt="" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
+                <img src={holder} alt=""  data-aos="zoom-in-down" />
             </div>
             <div className='cont-span'>
                 <span>

@@ -43,6 +43,7 @@
     display: none;
     background: gray;
     color: whitesmoke;
+    transition: all 0.3s ease-in;
 }
 .faq main .answer.active {
     display: block;

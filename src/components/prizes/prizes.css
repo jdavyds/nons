@@ -25,6 +25,7 @@
     color: white;
     font-weight: 400;
     font-size: 28px;
+    transition: opacity 4s ease-in;
 }
 .prizes main {
     display: flex;
