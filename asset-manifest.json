@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nons/static/css/main.4c234926.css",
-    "main.js": "/nons/static/js/main.caade7e8.js",
+    "main.css": "/nons/static/css/main.d748b7c8.css",
+    "main.js": "/nons/static/js/main.ecc04524.js",
     "static/js/787.ac650fe1.chunk.js": "/nons/static/js/787.ac650fe1.chunk.js",
     "static/media/prizesPics.png": "/nons/static/media/prizesPics.9c9892b5abb9c32aa438.png",
     "static/media/aboutGirl.png": "/nons/static/media/aboutGirl.64b6a98cd2fb82d72847.png",
@@ -15,15 +15,17 @@
     "static/media/cord2.png": "/nons/static/media/cord2.bb9c5cded8c6739537ac.png",
     "static/media/cord4.png": "/nons/static/media/cord4.fa15410efb964cfb17b7.png",
     "static/media/cord1.png": "/nons/static/media/cord1.acf9249967c674cefad0.png",
+    "static/media/background4.jpg": "/nons/static/media/background4.17fc1a83ed2d5f2f5214.jpg",
+    "static/media/background5.jpg": "/nons/static/media/background5.9531b65565a67ec26aa4.jpg",
     "static/media/glo.png": "/nons/static/media/glo.90e94c8b9903cc97a124.png",
     "static/media/kfc.png": "/nons/static/media/kfc.5aa52652445ba1ceb663.png",
     "index.html": "/nons/index.html",
-    "main.4c234926.css.map": "/nons/static/css/main.4c234926.css.map",
-    "main.caade7e8.js.map": "/nons/static/js/main.caade7e8.js.map",
+    "main.d748b7c8.css.map": "/nons/static/css/main.d748b7c8.css.map",
+    "main.ecc04524.js.map": "/nons/static/js/main.ecc04524.js.map",
     "787.ac650fe1.chunk.js.map": "/nons/static/js/787.ac650fe1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c234926.css",
-    "static/js/main.caade7e8.js"
+    "static/css/main.d748b7c8.css",
+    "static/js/main.ecc04524.js"
   ]
 }
