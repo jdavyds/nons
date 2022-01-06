@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import Header from './components/header/header';
 import Welcome from './components/welcome/welcome';
 import About from './components/about/about';
@@ -14,7 +15,12 @@ import Register from './components/register/register';
 import Subscribe from './components/subscribe/subscribe';
 import Footer from './components/footer/footer';
 import { ArrowUpward } from '@material-ui/icons'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function App() {
+  useEffect(() => {
+    Aos.init({duration: 3000, delay: 100, easing: 'ease-in'});
+  }, [])
   return (
     <div className="App">
       <Header />

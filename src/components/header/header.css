@@ -14,6 +14,26 @@ header div {
     justify-content: start;
     overflow-x: hidden;
 }
+.fixed {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    z-index: 1000;
+}
+.fixed div {
+    background: #B08126;
+}
+.fixed .header-links a {
+    color: black;
+}
+.fixed button {
+    background: black;
+}
+.fixed .header-links button a {
+    color: #B08126;
+}
 header img {
     margin: 0 80px 0 100px;
     height: 2em;

@@ -19,51 +19,51 @@ function ToGet() {
             <span></span>
             <h4>These are the things you get</h4>
             <main>
-                <div className="items">
+                <div className="items" data-aos="fade-right">
                     <img src={domain} alt="" />
                     Free Domain Name
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-down">
                     <img src={hosting} alt="" />
                     Free Web Hosting 
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-down">
                     <img src={internet} alt="" />
                     Web Design Training  & Certificate 
                 </div>
-                <div className="items">
+                <div className="items" data-aos="fade-left">
                     <img src={webDesign} alt="" />
                     Model Portfolio Website
                 </div>
                 <div className="items">
-                    <img src={photography} alt="" />
+                    <img src={photography} alt="" data-aos="fade-right"/>
                     Phone Photography Training and Certificate
                 </div>
-                <div className="items">
+                <div className="items" data-aos="zoom-in-down">
                     <img src={mobileApp} alt="" />
                     Phone Vidoegraphy Training & Certificate
                 </div>
-                <div className="items">
+                <div className="items" data-aos="zoom-in-down">
                     <img src={socialMedia} alt="" />
                     Social Media Training & Certificate
                 </div>
-                <div className="items">
+                <div className="items" data-aos="fade-left">
                     <img src={backdrop} alt="" />
                     Free Photo Session
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-right">
                     <img src={woman} alt="" />
                     Cat Walk & Modelling Training 
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-up">
                     <img src={advice} alt="" />
                     Advertisement Training 
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-up">
                     <img src={treatment} alt="" />
                     Make Up Training & Certification
                 </div>
-                <div className="items">
+                <div className="items" data-aos="slide-left">
                     <img src={solarium} alt="" />
                     Free Gym & Spa Session
                 </div>

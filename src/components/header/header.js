@@ -1,16 +1,27 @@
 import './header.css'
 import logo from './../img/NONS3 1.png'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
+    useEffect(() => {
+       window.addEventListener('scroll', fixHeader);
+       return () => {
+           window.removeEventListener('scroll', fixHeader);
+       };
+   });
+    function fixHeader() {
+       const header = document.querySelector('.header');
+       const scrollTop = window.scrollY;
+       scrollTop >= 60 ? header.classList.add('fixed') : header.classList.remove('fixed');
+    }
     const [hambuger, setHambuger] = useState(true)
     function handleHambuger() {
         setHambuger(!hambuger)
     }
     return(
-        <header id='header'>
+        <header id='header' className='header'>
             <div>
             <img src={logo} alt="" />
             <nav className="header-links">

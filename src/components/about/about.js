@@ -2,8 +2,8 @@ import './about.css'
 import aboutGirl from './../img/aboutGirl.png'
 function About() {
     return(
-        <div className="about" id='about'>
-            <section className='abt-nav'>
+        <div className="about" id='about'  data-aos="fade-up">
+            <section className='abt-nav'  >
             <nav>
                 <img src={aboutGirl} alt="" />
             </nav>

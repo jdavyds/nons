@@ -9,7 +9,7 @@ function Rules() {
             Nigeria Student Scholarship Pageant”</h3>
             <span></span>
             <div>
-                <section className='rule'>
+                <section className='rule' data-aos="fade-left" >
                     
                        <div><FontAwesomeIcon className='crown' icon={faCrown} />
                         <p>
@@ -43,7 +43,7 @@ function Rules() {
                         <p>
                         A contestant is ineligible to compete if he/she presently holds a crown within the same year.</p> </div>
                                         </section>
-                <section className='photo'>
+                <section className='photo'data-aos="fade-up" >
                 <nav>
                     <img src={photo} alt="" />
                 </nav>
