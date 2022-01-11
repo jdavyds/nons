@@ -3,7 +3,7 @@
     background: rgb(29, 28, 28);
     color: white;
     padding-bottom: 20px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .subscribe section {
     width: 50%;

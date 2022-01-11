@@ -2,7 +2,7 @@
     background: rgb(29, 28, 28);
     color: white;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
     padding-top: 100px;
     position: relative;
     z-index: -1;

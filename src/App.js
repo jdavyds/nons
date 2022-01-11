@@ -19,7 +19,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 function App() {
   useEffect(() => {
-    Aos.init({duration: 3000, delay: 100, easing: 'ease-in'});
+    Aos.init({duration: 2000, delay: 100, easing: 'ease-in'});
   }, [])
   return (
     <div className="App">
@@ -38,7 +38,7 @@ function App() {
       <Subscribe />
       <Footer />
       <nav className='super-nav'>
-        <a href="#header">
+        <a href="#welcome">
       <ArrowUpward id='super'/>
         </a>
       </nav>

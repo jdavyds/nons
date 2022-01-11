@@ -23,11 +23,11 @@ function ToGet() {
                     <img src={domain} alt="" />
                     Free Domain Name
                 </div>
-                <div className="items" data-aos="slide-down">
+                <div className="items" data-aos="zoom-in-down">
                     <img src={hosting} alt="" />
                     Free Web Hosting 
                 </div>
-                <div className="items" data-aos="slide-down">
+                <div className="items" data-aos="zoom-in-down">
                     <img src={internet} alt="" />
                     Web Design Training  & Certificate 
                 </div>
@@ -55,11 +55,11 @@ function ToGet() {
                     <img src={woman} alt="" />
                     Cat Walk & Modelling Training 
                 </div>
-                <div className="items" data-aos="slide-up">
+                <div className="items" data-aos="zoom-in-up">
                     <img src={advice} alt="" />
                     Advertisement Training 
                 </div>
-                <div className="items" data-aos="slide-up">
+                <div className="items" data-aos="zoom-in-up">
                     <img src={treatment} alt="" />
                     Make Up Training & Certification
                 </div>

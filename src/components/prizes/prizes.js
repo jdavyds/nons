@@ -14,7 +14,7 @@ function Prizes() {
                 <h6>First Prize:</h6>
                 <p>N500,000/Yr Scholarship (for years left in school) plus school pet project , travels and gift </p>
                 </div>
-                <div className='second' data-aos="slide-down">
+                <div className='second' data-aos="zoom-in-down">
                 <FontAwesomeIcon className='crown' icon={faCrown} />
                 <h6>Second Prize: </h6>
                 <p>N300,000/yr Scholarship (for years left in school) plus school pet project , travels and gift</p>

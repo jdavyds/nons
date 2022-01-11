@@ -8,7 +8,7 @@ import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 function Welcome() {
     return(
-        <div className="welcome">
+        <div className="welcome" id='welcome'>
             <FontAwesomeIcon className='navigate left' icon={faChevronLeft}/>
             <FontAwesomeIcon className='navigate right' icon={faChevronRight}/>
             <section className='intro'>

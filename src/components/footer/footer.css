@@ -1,7 +1,7 @@
 footer {
     background: rgb(29, 28, 28);
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 footer a:hover {
     color: #D8AA35;

@@ -2,7 +2,7 @@
     background: rgb(55, 55, 55);
     color: white;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
     z-index: -1;
 }
